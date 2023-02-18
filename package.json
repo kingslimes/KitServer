@@ -1,0 +1,20 @@
+{
+  "name": "webtoon",
+  "version": "1.0.0",
+  "description": "Project Webtoon ExpressJS",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Phiraphan Tanan",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "express-flash": "^0.0.2",
+    "cookie-parser": "^1.4.6",
+    "express-session": "^1.17.3"
+  }
+}

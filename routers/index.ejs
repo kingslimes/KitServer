@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Webtoon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" href="/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="preload stylesheet" href="/css/fontawesome@6.3.0.min.css" as="style">
+    <link rel="preload stylesheet" href="/css/bootstrap@5.3.0.min.css" as="style">
+    <link rel="preload stylesheet" href="/css/fonts.google.min.css" as="style">
+</head>
+<body style="font-family:Poppins">
+<div class="container min-vh-100 user-select-none">
+    <div class="navbar height" style="--height:60px">
+        <a class="navbar-brand fs-3" href="/" style="font-family:Ubuntu">Webtoon</a>
+        <a class="btn btn-dark" href="/auth/login">Sign in</a>
+    </div>
+    <div class="content min-height text-center px-1 d-flex align-items-center justify-content-center" style="--min-height:calc( 100vh - 120px )">
+        <div class="min-height pb-5" style="--min-height:450px">
+            <img class="py-2 max-width" style="--max-width:65vw;width:256px" draggable="false" oncontextmenu="return false" src="/favicon.png" alt="Webtoon">
+            <h1>Next Generation Webtoon System</h1>
+            <h4>Get ready for unlimited free manga uploads for you.</h4>
+            <div class="actions py-3">
+                <a class="btn btn-primary px-3 mx-1 mt-2" href="/auth/register" style="border-radius:50px">Get Started</a>
+                <a class="btn btn-outline-secondary px-3 mx-1 mt-2" href="/auth/list" style="border-radius:50px">Member List</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer text-center pt-2 height" style="--height:60px;font-size:10pt">
+        <p class="mb-0">Released under the MIT License. (55b97113)</p>
+        <p class="mb-0">Copyright © 2023 Phiraphan & <a class="text-decoration-none" href="https://github.com/kingslimes">Kingslimes</a>.</p>
+    </div>
+</div>
+</body>
+</html>
